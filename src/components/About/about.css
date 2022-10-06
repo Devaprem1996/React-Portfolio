@@ -1,0 +1,81 @@
+
+
+
+.aboutbox{
+    background: #121212;
+    box-shadow: 0 0 0 100vmax    #121212;
+    clip-path: inset(0-100vmax);
+    color:white
+}
+
+
+.aboutbox{
+    margin: 200px 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .aboutbox{
+        margin: 100px 0;
+    };
+}
+
+
+.aboutHeader{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.aboutPara{
+    text-align: center;
+    padding:5px
+}
+
+
+
+.aboutImg{
+    text-align: center;
+    justify-content: center;
+}
+
+.aboutImg img {
+    width: 300px;
+    height: 300px;
+   
+}
+
+@media screen and (max-width:768px) {
+    .aboutImg img{
+        width: 300px;
+    height: 300px;
+    }
+}
+
+.imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images img{
+    width: 100px;
+}
+
+
+.tagCloud{
+    display: inline-block;
+  top: 100px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 5px;
+}
+
+
+  
+  .skills-left-side {
+    width: 100%;
+    position: relative;
+  }
+
+ 
