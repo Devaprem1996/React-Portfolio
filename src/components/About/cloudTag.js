@@ -56,7 +56,7 @@ function Word({ children, ...props }) {
   };
   const ref = useRef();
   const [hovered, setHovered] = useState(false);
-  const over = (e) => (e.stopPropagation(),setHovered(true));
+  const over = (e) => (e.setHovered(true));
   const out = () => setHovered(false);
   // Change the mouse cursor on hover
   useEffect(() => {

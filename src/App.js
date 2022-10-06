@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 import { Container } from '@mui/material';
 import { createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material/styles';
 import "./style.css";
-import Scroll from './components/Scrolls';
+
 
 let theme = createTheme();
 theme = responsiveFontSizes(theme);
@@ -28,7 +28,7 @@ const App = () => {
         <div id="contact"><Contact /></div>
         <div id="sociallinks"><SocialLinks /></div>
         <div id="footer"><Footer /></div>
-        <div id="scroll"><Scroll /></div>
+        
       
       </ThemeProvider>
       
