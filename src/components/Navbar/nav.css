@@ -1,0 +1,186 @@
+
+
+.nav-container{
+    display: flex;
+    margin-top: 10px;
+    
+    
+}
+
+nav-header{
+    position:absolute;
+}
+
+
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    
+    
+    
+}
+
+
+.nav-links ul li a {  
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+    text-transform:capitalize;
+    transition: all 0.3s linear;
+   
+    
+}
+
+
+.nav-links ul li a:hover{
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 5px;
+    transition: all 0.3s linear;
+  }
+
+ 
+
+.nav-links{
+    position:absolute;
+    margin: 5px 0;
+    right:0;
+   
+    
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .nav-links{
+            display: none;
+    }
+}
+
+.menuicon{
+   display: none;
+   position:absolute;
+   margin: 5px 0;
+   right:0;
+  
+}
+
+.menuicon button{
+    
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 15px;
+    outline: none;
+    width: 19px;
+    position: relative;
+    margin-right: 10px;
+
+
+}
+
+
+@media only screen and (max-width:768px) {
+    .menuicon{
+        display: block;
+    }
+}
+
+
+
+
+
+.menu-container button{
+   
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 15px;
+    outline: none;
+    width: 19px;
+    position: relative;
+
+
+}
+
+.closebtn{
+    position:absolute;
+   margin: 5px 0;
+    
+   
+   
+}
+
+.menu{
+    background-color: #000;
+    margin: 10px;
+    overflow: auto;
+    padding: 80px 50px 0;
+    
+}
+
+
+.menu-container{
+    display:none;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  
+  
+}
+
+@media only screen and (max-width:768px) {
+
+    .menu-container{
+            display: block;
+          padding-left: 1em;
+         padding-top: 1em;
+         transition: all .3s ease-in-out;
+               
+    }
+}
+
+
+
+
+.menu ul{
+    display: block;
+    list-style-type: none;
+    margin:0;
+    
+    
+}
+
+
+.menu ul li a {  
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin-bottom: 10px;
+    
+   
+}
+
+.menu ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.2em;
+  }
+
+  .menu ul li a:active{
+    background-color: #00FFCA;
+    color: rgba(52, 73, 94,1.0);
+  }
