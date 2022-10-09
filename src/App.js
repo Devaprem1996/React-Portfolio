@@ -47,7 +47,7 @@ const App = () => {
         <div id="footer"><Footer /></div>
 
       </ThemeProvider>
-      <a className = "top-link show-link" href='#home'> &uarr;</a>
+      <a className = "top-link show-link" href='#navbar'> &uarr;</a>
     </Container>
 
     
