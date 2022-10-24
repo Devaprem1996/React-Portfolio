@@ -30,7 +30,7 @@ const SocialLinks = () => {
                             whileTap={{
                                 scale: 0.8,
                             }}>
-                            <li style={{ listStyleType:"none", marginRight: 25 , }}><a style={{color:"black" ,textDecoration:"none"}} href='https://github.com/Devaprem1996' alt="github">Github</a></li>
+                            <li style={{ listStyleType:"none", marginRight: 25 , }}><a  target="_blank" rel="noopener noreferrer"  style={{color:"black" ,textDecoration:"none"}} href='https://github.com/Devaprem1996' alt="github">Github</a></li>
                         </motion.div>
                         
                         <motion.div
@@ -39,21 +39,28 @@ const SocialLinks = () => {
                             whileHover={{ scale: 1.2, }}
                             whileTap={{
                                 scale: 0.8,
-                            }}><li style={{ listStyleType: "none", marginRight: 25 ,}}><a style={{color:"black" ,textDecoration:"none"}}href='https://www.linkedin.com/in/deva-prem-967a8b252/' alt="LinkedIn">LinkedIn</a></li></motion.div>
+                            }}><li style={{ listStyleType: "none", marginRight: 25 ,}}><a   target="_blank" rel="noopener noreferrer" style={{color:"black" ,textDecoration:"none"}}href='https://www.linkedin.com/in/deva-prem-967a8b252/' alt="LinkedIn">LinkedIn</a></li></motion.div>
                         <motion.div
                              
                             transition={{ type: "spring", stiffness: 100 }}
                             whileHover={{ scale: 1.2,}}
                             whileTap={{
                                 scale: 0.8,
-                            }}><li style={{ listStyleType: "none", marginRight: 25 ,}}  ><a style={{color:"black" ,textDecoration:"none"}}href='https://app.netlify.com/teams/devaprem1996/overview' alt="twitter">Netlify</a></li></motion.div>
+                            }}><li style={{ listStyleType: "none", marginRight: 25 ,}}  ><a   target="_blank" rel="noopener noreferrer" style={{color:"black" ,textDecoration:"none"}}href='https://app.netlify.com/teams/devaprem1996/overview' alt="twitter">Netlify</a></li></motion.div>
                         <motion.div
                              
                             transition={{ type: "spring", stiffness: 100 }}
                             whileHover={{ scale: 1.2,}}
                             whileTap={{
                                 scale: 0.8,
-                            }}><li style={{ listStyleType:"none", marginRight: 25 , }}><a style={{color:"black" ,textDecoration:"none"}}href='mailto:devaprem10@gmail.com' alt="Email">Email</a></li></motion.div>
+                            }}><li style={{ listStyleType:"none", marginRight: 25 , }}><a   target="_blank" rel="noopener noreferrer" style={{color:"black" ,textDecoration:"none"}}href='mailto:devaprem10@gmail.com' alt="Email">Email</a></li></motion.div>
+                        <motion.div
+                             
+                            transition={{ type: "spring", stiffness: 100 }}
+                            whileHover={{ scale: 1.2,}}
+                            whileTap={{
+                                scale: 0.8,
+                            }}><li style={{ listStyleType:"none", marginRight: 25 , }}><a   target="_blank" rel="noopener noreferrer" style={{color:"black" ,textDecoration:"none"}}href='https://drive.google.com/file/d/1B4URbC9WbVkp0ZCYrKnWwha6q3j7R2_t/view?usp=sharing' alt="Email">Resume</a></li></motion.div>
                     </div>            
                 </Typography>
             </ul>
