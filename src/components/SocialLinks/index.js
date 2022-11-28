@@ -60,7 +60,7 @@ const SocialLinks = () => {
                             whileHover={{ scale: 1.2,}}
                             whileTap={{
                                 scale: 0.8,
-                            }}><li style={{ listStyleType:"none", marginRight: 25 , }}><a   target="_blank" rel="noopener noreferrer" style={{color:"black" ,textDecoration:"none"}}href='https://drive.google.com/file/d/1B4URbC9WbVkp0ZCYrKnWwha6q3j7R2_t/view?usp=sharing' alt="Email">Resume</a></li></motion.div>
+                            }}><li style={{ listStyleType:"none", marginRight: 25 , }}><a   target="_blank" rel="noopener noreferrer" style={{color:"black" ,textDecoration:"none"}}href='https://drive.google.com/file/d/1Zbi6yi_n3uBnTXRjwertg6IJuKEK-HVA/view?usp=share_link' alt="Email">Resume</a></li></motion.div>
                     </div>            
                 </Typography>
             </ul>
