@@ -43,23 +43,7 @@
 	
 }
 
-.container .card .content .imgBx {
-	position: relative;
-	width: 250px;
-	height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-	
-}
 
-.container .card .content .imgBx img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
 
 .container .card .content .contentBx h3 {
 	color:black;

@@ -3,7 +3,6 @@ import { useRef, useState, useMemo, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Text, TrackballControls } from "@react-three/drei";
 
-
 import React from "react";
 
 let MyList = [
@@ -13,7 +12,7 @@ let MyList = [
   "Mongoose",
   "MongoDb",
   "JavaScript",
-  "JavaScript",
+  "Python",
   "Git",
   "netlify",
   "HTML",
@@ -25,7 +24,7 @@ let MyList = [
   "React",
   "Node",
   "SQL",
-  "Mongoose",
+  "power BI",
   "MongoDb",
   "JavaScript",
   "JavaScript",
@@ -38,7 +37,7 @@ let MyList = [
   "Express",
   "React",
   "Node",
-  "SQL",
+  "Tableau",
   "Mongoose",
   "MongoDb",
   "JavaScript",
@@ -56,7 +55,7 @@ function Word({ children, ...props }) {
   };
   const ref = useRef();
   const [hovered, setHovered] = useState(false);
-  const over = (e) => (e.setHovered(true));
+  const over = (e) => e.setHovered(true);
   const out = () => setHovered(false);
   // Change the mouse cursor on hover
   useEffect(() => {
@@ -111,9 +110,12 @@ function Cloud({ count = 4, radius = 20 }) {
 export default function Skills() {
   return (
     <div className="skills-page">
-      
       <div className="skills-right-side">
-        <Canvas dpr={[1, 2]} style ={{height:500, marginTop:-100 }} camera={{ position: [0, 0, 35], fov: 90 }}>
+        <Canvas
+          dpr={[1, 2]}
+          style={{ height: 500, marginTop: -100 }}
+          camera={{ position: [0, 0, 35], fov: 90 }}
+        >
           <fog attach="fog" args={["#202025", 0, 80]} />
           <Cloud count={8} radius={20} />
           <TrackballControls />
