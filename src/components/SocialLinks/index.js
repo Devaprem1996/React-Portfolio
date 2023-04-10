@@ -49,7 +49,7 @@ const SocialLinks = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: "black", textDecoration: "none" }}
-                    href="https://www.linkedin.com/in/deva-prem-967a8b252/"
+                    href="https://www.linkedin.com/in/devaprem007"
                     alt="LinkedIn"
                   >
                     LinkedIn
